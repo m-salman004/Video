@@ -8,5 +8,6 @@ btn.addEventListener("click", function () {
     }
     else {
         btn.classList.remove("slide");
+        video.play();
     }
 });
