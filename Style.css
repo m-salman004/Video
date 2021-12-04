@@ -54,3 +54,35 @@ header {
   h1 {
     color: wheat;
   }
+  .switch-btn {
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+  }
+  .switch-btn span {
+    display: inline-block;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: lightseagreen;
+  }
+  .switch {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: lightskyblue;
+    margin: 0;
+    display: block;
+  }
+  .slide .switch {
+    left: 50%;
+  }
+  
